@@ -1,0 +1,50 @@
+,id,type,asset_class,locale,name,acronym,mic,operating_mic,participant_id,url
+0,1,exchange,stocks,us,"NYSE American, LLC",AMEX,XASE,XNYS,A,https://www.nyse.com/markets/nyse-american
+1,2,exchange,stocks,us,"Nasdaq OMX BX, Inc.",,XBOS,XNAS,B,https://www.nasdaq.com/solutions/nasdaq-bx-stock-market
+2,3,exchange,stocks,us,"NYSE National, Inc.",NSX,XCIS,XNYS,C,https://www.nyse.com/markets/nyse-national
+3,4,TRF,stocks,us,FINRA NYSE TRF,,FINY,XNYS,D,https://www.finra.org
+4,4,TRF,stocks,us,FINRA Nasdaq TRF Carteret,,FINN,FINR,D,https://www.finra.org
+5,4,TRF,stocks,us,FINRA Nasdaq TRF Chicago,,FINC,FINR,D,https://www.finra.org
+6,4,TRF,stocks,us,FINRA Alternative Display Facility,,XADF,FINR,D,https://www.finra.org
+7,5,SIP,stocks,us,Unlisted Trading Privileges,,,XNAS,E,https://www.utpplan.com
+8,6,TRF,stocks,us,"International Securities Exchange, LLC - Stocks",,XISE,XNAS,I,https://nasdaq.com/solutions/nasdaq-ise
+9,7,exchange,stocks,us,Cboe EDGA,,EDGA,XCBO,J,https://www.cboe.com/us/equities
+10,8,exchange,stocks,us,Cboe EDGX,,EDGX,XCBO,K,https://www.cboe.com/us/equities
+11,9,exchange,stocks,us,"NYSE Chicago, Inc.",,XCHI,XNYS,M,https://www.nyse.com/markets/nyse-chicago
+12,10,exchange,stocks,us,New York Stock Exchange,,XNYS,XNYS,N,https://www.nyse.com
+13,11,exchange,stocks,us,"NYSE Arca, Inc.",,ARCX,XNYS,P,https://www.nyse.com/markets/nyse-arca
+14,12,exchange,stocks,us,Nasdaq,,XNAS,XNAS,T,https://www.nasdaq.com
+15,13,SIP,stocks,us,Consolidated Tape Association,,,XNYS,S,https://www.nyse.com/data/cta
+16,14,exchange,stocks,us,Long-Term Stock Exchange,,LTSE,LTSE,L,https://www.ltse.com
+17,15,exchange,stocks,us,Investors Exchange,,IEXG,IEXG,V,https://www.iextrading.com
+18,16,TRF,stocks,us,Cboe Stock Exchange,,CBSX,XCBO,W,https://www.cboe.com
+19,17,exchange,stocks,us,Nasdaq Philadelphia Exchange LLC,,XPHL,XNAS,X,https://www.nasdaq.com/solutions/nasdaq-phlx
+20,18,exchange,stocks,us,Cboe BYX,,BATY,XCBO,Y,https://www.cboe.com/us/equities
+21,19,exchange,stocks,us,Cboe BZX,,BATS,XCBO,Z,https://www.cboe.com/us/equities
+22,20,exchange,stocks,us,MIAX Pearl,,EPRL,MIHI,H,https://www.miaxoptions.com/alerts/pearl-equities
+23,21,exchange,stocks,us,Members Exchange,,MEMX,MEMX,U,https://www.memx.com
+24,62,ORF,stocks,us,OTC Equity Security,,OOTC,FINR,,https://www.finra.org/filing-reporting/over-the-counter-reporting-facility-orf
+25,300,exchange,options,us,NYSE American Options,,AMXO,XNYS,A,https://www.nyse.com/markets/american-options
+26,301,exchange,options,us,Boston Options Exchange,,XBOX,XBOX,B,https://www.boxoptions.com
+27,302,exchange,options,us,Chicago Board Options Exchange,,XCBO,XCBO,C,https://www.cboe.com
+28,303,exchange,options,us,"MIAX Emerald, LLC",,EMLD,MIHI,D,https://www.miaxoptions.com/alerts/emerald
+29,304,exchange,options,us,Cboe EDGX Options,,EDGO,XCBO,E,https://www.cboe.com/us/options
+30,307,exchange,options,us,Nasdaq Global Markets Exchange Group,GEMX,GEMX,GEMX,H,https://www.nasdaq.com/solutions/nasdaq-gemx
+31,308,exchange,options,us,"International Securities Exchange, LLC",ISE,XISX,XISX,I,https://www.nasdaq.com/solutions/nasdaq-ise
+32,309,exchange,options,us,Nasdaq MRX Options Exchange,,MCRY,XISX,J,https://www.nasdaw.com/solutions/nasdaq-mrx
+33,312,exchange,options,us,"MIAX International Securities Exchange, LLC",,XMIO,MIHI,M,https://www.miaxoptions.com/alerts
+34,313,exchange,options,us,"NYSE Arca, Inc. - Options",,ARCO,XNYS,N,https://www.nyse.com/markets/arca-options
+35,314,SIP,options,us,Options Price Reporting Authority,,OPRA,OPRA,O,http://www.opraplan.com
+36,315,exchange,options,us,"MIAX Pearl, LLC - Options",,MPRL,MIHI,P,https://www.miaxoptions.com/alerts/pearl
+37,316,exchange,options,us,Nasdaq Options Market,,XNDQ,XNAS,Q,https://www.nasdaq.com/solutions/nasdaq-nom
+38,318,exchange,options,us,"MIAX SAPPHIRE, LLC",,SPHR,MIHI,S,https://www.miaxglobal.com/markets/us-options/sapphire-options
+39,319,exchange,options,us,Nasdaq BX - Options,,XBXO,XNAS,T,https://www.nasdaq.com/solutions/nasdaq-bx
+40,320,exchange,options,us,Members Options Exchange,,MXOP,MEMX,U,https://www.memx.com
+41,322,exchange,options,us,Cboe C2 Options Exchange,,C2OX,XCBO,W,https://www.cboe.com/us/options
+42,323,exchange,options,us,"Nasdaq Philadelphia Exchange, LLC - Options",,XPHO,XNAS,X,https://www.nasdaq.com/solutions/nasdaq-phlx
+43,325,exchange,options,us,Cboe BZX Options Exchange,,BATO,XCBO,Z,https://www.cboe.com/us/options
+44,48,exchange,fx,global,Currency Banks 1,,,,,
+45,1,exchange,crypto,global,Coinbase,,,,,https://www.coinbase.com
+46,2,exchange,crypto,global,Bitfinex,,,,,https://www.bitfinex.com
+47,6,exchange,crypto,global,Bitstamp,,,,,https://www.bitstamp.net
+48,23,exchange,crypto,global,Kraken,,,,,https://www.kraken.com

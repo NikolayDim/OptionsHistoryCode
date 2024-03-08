@@ -1,0 +1,5 @@
+,id,type,asset_class,locale,name,url
+0,1,exchange,crypto,global,Coinbase,https://www.coinbase.com
+1,2,exchange,crypto,global,Bitfinex,https://www.bitfinex.com
+2,6,exchange,crypto,global,Bitstamp,https://www.bitstamp.net
+3,23,exchange,crypto,global,Kraken,https://www.kraken.com
