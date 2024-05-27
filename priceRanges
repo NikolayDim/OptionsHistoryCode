@@ -1,0 +1,31 @@
+#use python
+#from yahoo finance extract daily prices for given ticker for the year back period 
+
+import pandas as pd
+import numpy as np
+import datetime
+import matplotlib.pyplot as plt
+import yfinance as yf
+
+ticker = 'NVDA'
+#current date
+end_date = datetime.datetime.now()
+#start date
+start_date = end_date - datetime.timedelta(days=365)
+
+#extract daily prices for given ticker for the year back period
+data = yf.download(ticker, start=start_date, end=end_date)
+print(data.head())
+#calculate difference between high and low prices in separate column
+data['diff'] = data['High'] - data['Low']
+print(data.head())
+#print entire column
+print(data['diff'])
+#plot the difference between high and low prices 
+plt.plot(data['diff'])
+plt.show()
+#visualize the fridays on the chart
+data['day'] = data.index.dayofweek
+print(data.head())
+plt.plot(data[data['day'] == 4]['diff'])
+plt.show()

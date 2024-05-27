@@ -40,7 +40,7 @@ def get_options_tickers():
 
 def get_historical_prices(ticker):
     end_date = datetime.date.today() - datetime.timedelta(days=1)
-    start_date = end_date - datetime.timedelta(days=2*365)
+    start_date = end_date - datetime.timedelta(days=3*365)
     endpoint = f'https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{start_date}/{end_date}'
     params = {  
         'adjusted': 'true',
@@ -127,7 +127,7 @@ def plot_option_vwap(df):
 
 def main():
     try:
-        ticker_option = 'O:NVDA240301P00735000'
+        ticker_option = 'O:TSLA240503C00187500'
         df_option = get_historical_prices(ticker_option)
         if df_option is None:
             raise Exception('Failed to get historical prices for option')
@@ -141,8 +141,8 @@ def main():
 
         df_merged = pd.merge(df_option[['Timestamp', 'Option VWAP Change', 'Volume Weighted Average Price']], df_stock[['Timestamp', 'Stock VWAP Change', 'Volume Weighted Average Price']], on='Timestamp', suffixes=('_Option', '_Stock'))
 
-        plot_vwap_change(df_merged)
-        plot_vwap(df_merged)
+        #plot_vwap_change(df_merged)
+        #plot_vwap(df_merged)
         plot_option_vwap(df_option)
         plot_candlestick_chart(df_option)
     except Exception as e:
